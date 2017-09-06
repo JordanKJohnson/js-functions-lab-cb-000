@@ -8,3 +8,7 @@ function happyHolidaysTo(name){
   //Merry Christmas, not "Happy Holidays".
 }
 
+function happyHolidayTo(holiday,name){
+  var returnStr = "Happy "+holiday+", "+name+"!";
+  return returnStr;
+}
